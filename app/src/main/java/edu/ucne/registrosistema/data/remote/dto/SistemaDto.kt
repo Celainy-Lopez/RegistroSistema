@@ -1,4 +1,4 @@
 package edu.ucne.registrosistema.data.remote.dto
 
-class Resource {
+class SistemaDto {
 }
