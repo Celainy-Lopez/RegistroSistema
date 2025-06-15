@@ -1,4 +1,9 @@
 package edu.ucne.registrosistema.data.remote.dto
 
-class SistemaDto {
-}
+
+data class SistemaDto(
+    val sistemaId: Int?,
+    val nombre: String,
+    val descripcion: String,
+    val costo: Double
+)
